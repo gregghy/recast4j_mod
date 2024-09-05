@@ -140,7 +140,7 @@ public class RecastDemo {
 
         nuklearUI = new NuklearUI(window, mouse, settingsUI, toolsUI);
 
-        DemoInputGeomProvider geom = loadInputMesh(getClass().getClassLoader().getResourceAsStream("nav_test.obj"));
+        DemoInputGeomProvider geom = loadInputMesh(getClass().getClassLoader().getResourceAsStream("test.obj"));
         sample = new Sample(geom, Collections.emptyList(), null, settingsUI, dd);
         float timeAcc = 0;
         while (!glfwWindowShouldClose(window)) {
